@@ -63,41 +63,11 @@ A custom table with the following fields:
 ## Prerequisites
 
 - ServiceNow instance with developer access
-- Node.js (compatible version with ServiceNow SDK)
-- ServiceNow CLI tools installed
 - ServiceNow IDE or compatible development environment
 
 ## Installation
 
-1. Clone this repository:
-   ```bash
-   git clone [repository-url]
-   cd ide-sandbox
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Configure your ServiceNow instance connection (if not already configured)
-
-4. Build the application:
-   ```bash
-   npm run build
-   ```
-
-5. Deploy to your ServiceNow instance:
-   ```bash
-   npm run deploy
-   ```
-
-## Available Scripts
-
-- `npm run build` - Builds the ServiceNow application
-- `npm run deploy` - Installs the application to your ServiceNow instance
-- `npm run transform` - Transforms the application metadata
-- `npm run types` - Updates TypeScript type definitions
+- Clone and install into your ServiceNow environment while accounting for instance namespace changes
 
 ## Development
 
@@ -148,15 +118,6 @@ To test the application:
 3. Create new records and test state transitions
 4. Verify that info messages appear when states change
 5. Verify that welcome messages appear when forms load
-
-## Contributing
-
-When contributing to this project:
-
-1. Follow ServiceNow development best practices
-2. Use the Fluent API for metadata definitions
-3. Maintain TypeScript typing where applicable
-4. Test changes in a development instance before submitting
 
 ## License
 
