@@ -1,0 +1,22 @@
+{
+    "name": "x-648117-ide-sandbox",
+    "version": "1.0.0",
+    "description": "Play with the SN IDE capability",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.3.0",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "4.3.0"
+    },
+    "dependencies": {
+        "lodash": "4.17.23",
+        "validator": "13.15.26"
+      }
+}
