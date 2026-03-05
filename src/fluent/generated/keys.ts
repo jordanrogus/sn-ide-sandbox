@@ -83,12 +83,12 @@ declare global {
                     'validator@13.15.26/index.js': {
                         table: 'sys_module'
                         id: 'a8abeb3d874a4b40b505a687d9052710'
-                        deleted: true
+                        deleted: false
                     }
                     'validator@13.15.26/package.json': {
                         table: 'sys_module'
                         id: '75063a1bbacb4346a74090e953e96f99'
-                        deleted: true
+                        deleted: false
                     }
                 }
                 composite: [
